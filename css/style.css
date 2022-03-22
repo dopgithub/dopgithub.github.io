@@ -1,0 +1,20 @@
+body{}
+
+table{
+  background-color:navy;
+  color:mistyrose;
+}
+
+td{border: 2px solid whitesmoke;}
+
+.trgreen{
+  background-color:green;
+}
+
+.orange{
+  background-color:orange;
+}
+
+.fire{
+  background-color: firebrick;
+}

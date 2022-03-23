@@ -1,0 +1,52 @@
+
+
+/* table traffic light section */
+
+
+.tlfire{color:firebrick;}
+.tlorange{color:orange;}
+.tlgreen{color:green;}
+.tl{
+  background-color:black;
+  font-size: 150px;
+  width:100px;
+  height: 300px;
+  margin:0px;
+  padding:0px;
+  outline: 0px;
+  text-align: center;
+  line-height: 0.5;
+  vertical-align:middle;
+}
+
+/* div traffic light section */
+
+.fire{
+  background-color: firebrick;
+}
+
+.orange{
+  background-color:orange;
+}
+
+.green{
+  background-color: green;
+}
+
+
+.rounded{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding:0px;
+  border:none;
+}
+
+.tldiv{
+  border-radius: 8px;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  border: solid black 2px;
+}

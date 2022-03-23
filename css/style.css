@@ -3,6 +3,7 @@ body{}
 table{
   background-color:navy;
   color:mistyrose;
+  width: 50%;
 }
 
 td{border: 2px solid whitesmoke;}

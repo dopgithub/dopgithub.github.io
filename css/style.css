@@ -1,12 +1,17 @@
 body{}
 
+img{width: 100px;}
+
 table{
   background-color:navy;
   color:mistyrose;
   width: 50%;
 }
 
-td{border: 2px solid whitesmoke;}
+td{
+  border: 2px solid whitesmoke;
+  padding: 10px;
+}
 
 .trgreen{
   background-color:green;

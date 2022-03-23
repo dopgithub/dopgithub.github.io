@@ -3,7 +3,7 @@
 /* table traffic light section */
 
 
-.tlfire{color:firebrick;}
+.tlfire{color:firebrick;} /* class selector text color */
 .tlorange{color:orange;}
 .tlgreen{color:green;}
 .tl{
@@ -11,12 +11,11 @@
   font-size: 150px;
   width:100px;
   height: 300px;
-  margin:0px;
-  padding:0px;
-  outline: 0px;
-  text-align: center;
-  line-height: 0.5;
-  vertical-align:middle;
+  margin:0px; /* external distance from border*/
+  padding:0px; /* internal distance from conter to border */
+  text-align: center; /* children horizontal placing */
+  line-height: 0px; /* cheating to simulate form close to square */
+  vertical-align:middle; /* children vertical placing */
 }
 
 /* div traffic light section */
@@ -35,12 +34,11 @@
 
 
 .rounded{
-  border-radius: 50%;
+  border-radius: 50%; /* round radius */
   width: 40px;
   height: 40px;
   margin: 10px;
   padding:0px;
-  border:none;
 }
 
 .tldiv{
@@ -48,5 +46,5 @@
   background-color: black;
   width: 60px;
   height: 60px;
-  border: solid black 2px;
+  border: solid black 2px; /* solid black line 2px width border */
 }

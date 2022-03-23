@@ -12,7 +12,7 @@
   width:100px;
   height: 300px;
   margin:0px; /* external distance from border*/
-  padding:0px; /* internal distance from conter to border */
+  padding:0px; /* internal distance from content to border */
   text-align: center; /* children horizontal placing */
   line-height: 0px; /* cheating to simulate form close to square */
   vertical-align:middle; /* children vertical placing */
